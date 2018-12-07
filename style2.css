@@ -1,0 +1,39 @@
+.wrap{
+    width: 600px;
+    margin: auto;
+    
+}
+.content {
+    width: 500px;
+    background: yellow;
+    float: left;
+
+}
+.content li{
+  display: inline;
+  padding-left: 10px;
+  
+}
+.content a{
+    text-decoration: none;
+    
+}
+ ul a:hover{
+     text-decoration: underline;
+
+}
+.content,aside
+{
+    height: 500px;
+}
+aside{
+    
+    
+    background: blue;
+    float: left;
+
+}
+aside ul{
+    padding-left: 0;
+    list-style: none; 
+}
